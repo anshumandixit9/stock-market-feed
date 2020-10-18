@@ -3,9 +3,17 @@ import './SideBar.css';
 import SideNav, {NavItem, NavIcon, NavText} from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
+const data = null;
 
 export class SideBar extends Component {
+
+    constructor() {
+        super();
+        this.data = require('./shared/data.json')
+    }
+
     render() {
+
         return (
             <SideNav
                 onSelect={(selected) => {
@@ -28,11 +36,17 @@ export class SideBar extends Component {
                         <NavText>
                             List
                         </NavText>
-                        <NavItem eventKey="charts/linechart">
-                            <NavText>
-                                Line Chart
-                            </NavText>
-                        </NavItem>
+                        {
+                            this.data.map(element => {
+                                return (
+                                    <NavItem eventKey={element.name}>
+                                        <NavText>
+                                            {element.name}
+                                        </NavText>
+                                    </NavItem>
+                                )
+                            })
+                        }
                     </NavItem>
                 </SideNav.Nav>
             </SideNav>
