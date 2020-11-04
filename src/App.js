@@ -1,10 +1,16 @@
 import React from 'react';
 import './SideBar';
 import {SideBar} from "./SideBar";
+import {NSE} from "./NSE";
+import {Header} from "./page_header";
 
 function App() {
     return (
-        <SideBar/>
+        <div>
+            <Header/>
+            <NSE/>
+            <SideBar />
+        </div>
     );
 }
 

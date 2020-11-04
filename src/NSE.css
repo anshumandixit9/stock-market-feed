@@ -1,0 +1,74 @@
+.content{
+    position: relative;
+    text-align: center;
+}
+.open{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    font-family: "Courier New", Courier ;
+    font-size: 300%;
+    color: azure;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.closed{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    font-family: "Courier New", Courier ;
+    font-size: 300%;
+    color: azure;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.NULL{
+    background-color: orange;
+    width: 250px;
+    height: 250px;
+    font-family: "Courier New", Courier ;
+    font-size: 300%;
+    color: azure;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.data{
+  text-align: center;
+
+}
+.grid-container1 {
+    margin-left: 220px;
+    margin-right: 200px;
+    display: grid;
+    background-color: azure;
+    grid-template-columns:auto 180px;
+    border: 1px solid black;
+    padding: 10px;
+    color: darkgreen;
+}
+.grid-container2 {
+    margin-left: 220px;
+    margin-right: 200px;
+    display: grid;
+    background-color: azure;
+    grid-template-columns:auto 180px;
+    border: 1px solid black;
+    padding: 10px;
+    color: darkred;
+}
+.grid-item {
+    font-size: 20px;
+    text-align: center;
+}
+.price{
+    margin-right: 0px;
+}
+.name{
+    margin-left: 0px;
+}
