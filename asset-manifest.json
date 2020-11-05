@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/stock-market-feed/static/css/main.deecca1f.chunk.css",
+    "main.js": "/stock-market-feed/static/js/main.9cd23850.chunk.js",
+    "main.js.map": "/stock-market-feed/static/js/main.9cd23850.chunk.js.map",
+    "runtime-main.js": "/stock-market-feed/static/js/runtime-main.b4924d52.js",
+    "runtime-main.js.map": "/stock-market-feed/static/js/runtime-main.b4924d52.js.map",
+    "static/css/2.5b7efe6d.chunk.css": "/stock-market-feed/static/css/2.5b7efe6d.chunk.css",
+    "static/js/2.22679744.chunk.js": "/stock-market-feed/static/js/2.22679744.chunk.js",
+    "static/js/2.22679744.chunk.js.map": "/stock-market-feed/static/js/2.22679744.chunk.js.map",
+    "index.html": "/stock-market-feed/index.html",
+    "precache-manifest.b23bebed2f68b3c3737c34a713f4c2f1.js": "/stock-market-feed/precache-manifest.b23bebed2f68b3c3737c34a713f4c2f1.js",
+    "service-worker.js": "/stock-market-feed/service-worker.js",
+    "static/css/2.5b7efe6d.chunk.css.map": "/stock-market-feed/static/css/2.5b7efe6d.chunk.css.map",
+    "static/css/main.deecca1f.chunk.css.map": "/stock-market-feed/static/css/main.deecca1f.chunk.css.map",
+    "static/js/2.22679744.chunk.js.LICENSE.txt": "/stock-market-feed/static/js/2.22679744.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4924d52.js",
+    "static/css/2.5b7efe6d.chunk.css",
+    "static/js/2.22679744.chunk.js",
+    "static/css/main.deecca1f.chunk.css",
+    "static/js/main.9cd23850.chunk.js"
+  ]
+}
