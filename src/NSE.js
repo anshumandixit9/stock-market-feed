@@ -22,11 +22,6 @@ export class NSE extends Component{
     }
 
     render(){
-        console.log("rs")
-        console.log(this.state.status)
-        console.log("rs")
-        console.log(this.state.Nifty)
-        console.log("rs")
            return(
             <div >
               <div class = "content">
